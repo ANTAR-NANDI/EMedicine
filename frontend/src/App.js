@@ -5,6 +5,7 @@ import slider2 from './assets/slider/2.jpg';
 import slider3 from './assets/slider/3.jpg';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Home from "./screens/Home";
 function App() {
   return (
     <div>
@@ -50,7 +51,7 @@ function App() {
                         </Carousel.Caption>
                       </Carousel.Item>
                   </Carousel>
-            
+            <Home/>
             <Footer/>
         </Container>
     </div>
