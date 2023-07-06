@@ -1,7 +1,8 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-import products from '../products'
-import Product from '../components/Product'
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import products from '../../products';
+import Product from '../pages/Product';
+// export default Home
 function Home() {
   return (
     <div>

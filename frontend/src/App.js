@@ -1,59 +1,22 @@
-import { Container } from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
-import slider1 from './assets/slider/1.jpg';
-import slider2 from './assets/slider/2.jpg';
-import slider3 from './assets/slider/3.jpg';
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./screens/Home";
+import logo from './logo.svg';
+
 function App() {
   return (
-    <div>
-          <Container>
-              <Header/>
-              
-                  <Carousel>
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src={slider1}
-                          alt="First slide"
-                        />
-                        <Carousel.Caption>
-                          <h3>First slide label</h3>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src={slider2}
-                          alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                          <h3>Second slide label</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-100"
-                          src={slider3}
-                          alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                          <h3>Third slide label</h3>
-                          <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                          </p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                  </Carousel>
-            <Home/>
-            <Footer/>
-        </Container>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
